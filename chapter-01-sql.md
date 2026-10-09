@@ -1975,5 +1975,5 @@ SELECT MIN(dt), MAX(dt), COUNT(DISTINCT dt) FROM your_result;
 
 ---
 
-> 下一节：1.2 Excel / 表格（待写）
+> 下一节：[1.2 Excel / 表格](./chapter-01-excel.md)
 > 下一章：[第二章 定位问题与验证方案](./chapter-02.md)

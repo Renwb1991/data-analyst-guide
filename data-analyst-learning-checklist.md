@@ -32,6 +32,8 @@
 
 ### 1.2 Excel / 表格
 
+> 📖 详细教程 + 示例：[1.2 Excel / 表格](./chapter-01-excel.md)
+
 - [ ] 数据透视表（含多维度、计算字段）
 - [ ] `VLOOKUP / XLOOKUP / INDEX+MATCH`、`SUMIFS / COUNTIFS`
 - [ ] 数据清洗：分列、去重、条件格式
