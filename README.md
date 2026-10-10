@@ -1,8 +1,28 @@
 # 数据分析师学习指南
 
+[![License](https://img.shields.io/github/license/Renwb1991/data-analyst-guide)](./LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/Renwb1991/data-analyst-guide)](https://github.com/Renwb1991/data-analyst-guide/commits/main)
+[![正文](https://img.shields.io/badge/%E6%AD%A3%E6%96%87-10.2k%20%E8%A1%8C-blue)](#-正文教程)
+[![练习](https://img.shields.io/badge/%E7%BB%83%E4%B9%A0-28%20%E9%A2%98-green)](./EXERCISES.md)
+[![陷阱](https://img.shields.io/badge/%E9%99%B7%E9%98%B1-183%20%E6%9D%A1-orange)](./PITFALLS.md)
+
 一份面向数据分析从业者的分阶段学习清单与配套教程。
 
 不讲「数据分析有多重要」，只回答三个问题：**该学什么、学到什么程度算会了、哪些地方会把人坑死。**
+
+---
+
+## 目录
+
+- [这份资料适合谁](#这份资料适合谁)
+- [**四个入口**](#四个入口)
+  - [📋 学习清单](#-学习清单) —— 三阶段清单，带勾选框与里程碑自测
+  - [📘 练习与答案库](#-练习与答案库) —— 28 题，全部带完整答案
+  - [🔍 高频陷阱速查手册](#-高频陷阱速查手册) —— 183 条，支持症状倒查
+  - [📖 正文教程](#-正文教程) —— 7 篇，10,239 行
+- [三个设计原则](#三个设计原则)
+- [怎么用这份资料](#怎么用这份资料)
+- [方言说明](#方言说明) · [贡献](#贡献) · [许可](#许可)
 
 ---
 
@@ -20,7 +40,7 @@
 
 ---
 
-## 目录
+## 四个入口
 
 ### 📋 [学习清单](./data-analyst-learning-checklist.md)
 
