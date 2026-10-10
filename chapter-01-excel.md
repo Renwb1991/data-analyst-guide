@@ -812,5 +812,5 @@ user_1 下了 2 单，「计数」会算成 2。要算去重后的用户数，�
 ---
 
 > 上一节：[1.1 SQL](./chapter-01-sql.md)
-> 下一节：1.3 业务理解（待写）
+> 下一节：[1.3 业务理解](./chapter-01-business.md)
 > 返回：[学习清单](./data-analyst-learning-checklist.md)
