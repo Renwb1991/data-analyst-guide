@@ -1836,6 +1836,8 @@ GROUP BY user_id;
 
 用本章的示例表（`dim_user` / `dwd_order` / `dwd_order_item` / `dwd_event`）完成，答案思路在折叠里。
 
+> 📘 **完整答案**（可运行 SQL + 实测结果 + 错误写法对比）见 [练习与答案库 A 节](./EXERCISES.md)。
+
 **Q1（基础 + JOIN）** 统计每个渠道的：用户数、下单用户数、下单率。要求包含 0 单的渠道和用户。
 
 <details><summary>思路</summary>
