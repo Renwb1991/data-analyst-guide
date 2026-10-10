@@ -720,5 +720,5 @@ A 渠道的优质人群可能已经触达饱和，加预算的边际效果会递
 ---
 
 > 上一节：[1.3 业务理解](./chapter-01-business.md)
-> 下一节：1.5 表达（待写）
+> 下一节：[1.5 表达](./chapter-01-communication.md)
 > 返回：[学习清单](./data-analyst-learning-checklist.md)
