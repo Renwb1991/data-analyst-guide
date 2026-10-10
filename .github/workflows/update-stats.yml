@@ -20,7 +20,7 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: 统计并更新 README
         run: python3 .github/scripts/update_stats.py
@@ -35,8 +35,11 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
-          # 用 GITHUB_TOKEN 推送的提交不会再次触发 workflow（GitHub 内置的防循环机制）；
-          # [skip ci] 是第二道保险。
+          # 防循环双保险：
+          #   1. 用 GITHUB_TOKEN 推送的提交不会再次触发 workflow（GitHub 内置机制）
+          #   2. 提交信息带跳过 CI 的标记
+          # ⚠️ 注意：这个标记一旦出现在【任何】提交信息里（哪怕只是在正文中
+          #    提到它）都会生效。写提交信息时别无意间带上它。
           git commit -m "chore: 同步 README 统计数字 [skip ci]"
           git push
 
