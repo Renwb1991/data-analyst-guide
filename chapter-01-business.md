@@ -634,5 +634,5 @@ SELECT dt, COUNT(*) FROM some_table                -- ② 行数趋势稳不稳
 ---
 
 > 上一节：[1.2 Excel / 表格](./chapter-01-excel.md)
-> 下一节：1.4 统计入门（待写）
+> 下一节：[1.4 统计入门](./chapter-01-stats.md)
 > 返回：[学习清单](./data-analyst-learning-checklist.md)
