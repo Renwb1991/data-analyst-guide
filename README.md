@@ -77,7 +77,7 @@
 
 | 文档 | 对应清单 | 篇幅 | 状态 |
 |---|---|---:|---|
-| [1.1 SQL](./chapter-01-sql.md) | 阶段一 · 1.1 | 1979 行 | ✅ 已完成 |
+| [1.1 SQL](./chapter-01-sql.md) | 阶段一 · 1.1 | 1981 行 | ✅ 已完成 |
 | [1.2 Excel / 表格](./chapter-01-excel.md) | 阶段一 · 1.2 | 816 行 | ✅ 已完成 |
 | [1.3 业务理解](./chapter-01-business.md) | 阶段一 · 1.3 | 638 行 | ✅ 已完成 |
 | [1.4 统计入门](./chapter-01-stats.md) | 阶段一 · 1.4 | 724 行 | ✅ 已完成 |
@@ -197,6 +197,10 @@ SQL 以 **Trino / Presto** 为主（大数据场景最常见），关键差异�
 - 文档名和节号（如 `chapter-02.md · 2.4.3`）
 - 你算出的结果 vs 文中的结果
 - 使用的引擎/库版本
+
+> ⚙️ **README 里的统计数字（徽章、各章行数、题数、陷阱条数）由
+> [GitHub Actions](./.github/workflows/update-stats.yml) 自动同步，不要手工改**——
+> 改了会在下次推送时被覆盖。本地可运行 `python3 .github/scripts/update_stats.py --check` 自查。
 
 ---
 
